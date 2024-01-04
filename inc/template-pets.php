@@ -4,7 +4,8 @@ get_header(); ?>
 
 <div class="page-banner">
   <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg'); ?>);"></div>
-  <div class="page-banner__content container container--narrow">
+  <!-- <div class="page-banner__content container container--narrow"> -->
+  <div class="page-banner__content container">
     <h1 class="page-banner__title">Pet Adoption</h1>
     <div class="page-banner__intro">
       <p>Providing forever homes one search at a time.</p>
@@ -12,7 +13,8 @@ get_header(); ?>
   </div>  
 </div>
 
-<div class="container container--narrow page-section">
+<!-- <div class="container container--narrow page-section"> -->
+<div class="container page-section">
 
   <?php 
     $petArgs = [];
